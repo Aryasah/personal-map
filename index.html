@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="1.png" />
+  
+    <meta property="og:url"   content="https://linkedin-yt-85935.web.app/" />
+    <meta property="og:title" content="Mappa: Your Personal Maps">
+    <meta property="og:description" content="A small project made by Arya SAh | Made by mapbox which also supports direction features">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./1.jpg">
+    <title>Maps</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    
+</head>
+<body>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+    <!-- Load the `mapbox-gl-geocoder` plugin. -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
+    
+    <!-- Promise polyfill script is required -->
+    <!-- to use Mapbox GL Geocoder in IE 11. -->
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> 
+    <div id="map"></div>
+ 
+    <div id="menu">
+
+    <div class="con">
+    <input id="satellite-v9" type="radio" name="rtoggle" value="satellite" checked="checked">
+    <!-- See a list of Mapbox-hosted public styles at -->
+    <!-- https://docs.mapbox.com/api/maps/styles/#mapbox-styles -->
+    <label for="satellite-v9"><i class="fa fa-globe" aria-hidden="true"></i></label>
+    </div>
+
+    <div class="con">
+    <input id="light-v10" type="radio" name="rtoggle" value="light">
+    <label for="light-v10"><i class="fa fa-sun-o" aria-hidden="true"></i></label>
+    </div>
+
+    <div class="con">
+    <input id="dark-v10" type="radio" name="rtoggle" value="dark">
+    <label for="dark-v10"><i class="fa fa-moon-o" aria-hidden="true"></i></label>
+    </div>
+
+    <div class="con">
+    <input id="streets-v11" type="radio" name="rtoggle" value="streets">
+    <label for="streets-v11"><i class="fa fa-road" aria-hidden="true"></i></label>
+    </div>
+
+    <div class="con">
+    <input id="outdoors-v11" type="radio" name="rtoggle" value="outdoors">
+    <label for="outdoors-v11"><i class="fa fa-street-view" aria-hidden="true"></i></label>
+    </div>
+
+    </div>
+    <div class="down">
+        <h2>
+            <span>M</span>
+            <span>a</span>
+            <span>p</span>
+            <span>p</span>
+            <span>a</span>
+
+        
+        </h2>
+        <p><a target="_blank" href="https://www.linkedin.com/in/arya-sah-5100121b3/">&copy;Arya Sah</a></p>
+    </div>
+</body>
+</html>
