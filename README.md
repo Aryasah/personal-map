@@ -1,8 +1,8 @@
-#Mappa
+# Mappa
 ##### A map app made with amazing features.
 
 
-###Technologies Used
+### Technologies Used
 * HTML5
 * CSS3
 * Javascript
@@ -17,14 +17,14 @@
 * Suppoorts Both Dark and Light Mode.
 * Responsive on mobile.
 
-###Show direction between source and destination.
+### Show direction between source and destination.
 ![image](https://user-images.githubusercontent.com/75942764/127641692-ad77bcee-ff73-4458-ad15-b6ee849a26e5.png)
 
 
-###Dark Mode
+### Dark Mode
 ![image](https://user-images.githubusercontent.com/75942764/127641275-67100146-7756-4433-8e26-d75b71e15bda.png)
 
-####Thanks!! For Reading
+#### Thanks!! For Reading
 
 ### Connect with me
   
